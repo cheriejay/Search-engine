@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Plus Week 5 Homework</title>
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/7cd85c386f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row-1">
+        <form id="search-form">
+          <input
+            class="input"
+            type="text"
+            placeholder="Enter a city"
+            id="search-in"
+          />
+          <button id="s-button">Search</button>
+          <button id="c-button">Current</button>
+        </form>
+      </div>
+      <h1></h1>
+      <ul>
+        <li id="date"></li>
+        <li></li>
+      </ul>
+
+      <div class="row-3">
+        <i class="fa-solid fa-sun"></i>
+        <span class="h2" id="temp"></span>
+        <span class="units">°C</span>
+      </div>
+      <div class="col">
+        <ul>
+          <li>Pressure: <span id="pressure"></span> mb</li>
+          <li>Humidity: <span id="humidity"></span>%</li>
+          <li>WindSpeed: <span id="wind"></span> km/h</li>
+        </ul>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
