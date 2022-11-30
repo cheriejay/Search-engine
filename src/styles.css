@@ -1,0 +1,90 @@
+body {
+  font-family: sans-serif;
+  color: gray;
+}
+.container {
+  border: 1px solid lightslategray;
+  height: 220px;
+  width: 550px;
+  margin: 100px auto;
+  background: #fbfbfc;
+  padding: 20px;
+  border-radius: 10px;
+}
+.row-1 {
+  margin: 10px auto;
+}
+.input {
+  background: white;
+  border: 1px solid #d6eafb;
+  border-radius: 10px;
+  margin-left: 5px;
+  font-size: 15px;
+  padding: 10px 40px;
+  box-shadow: 2px 5px 5px gray;
+  text-align: left;
+}
+#s-button {
+  border-radius: 10px;
+  font-size: 15px;
+  background: #42a5f5;
+  border: 1px solid #42a5f5;
+  padding: 10px 25px;
+  margin-left: 25px;
+  color: white;
+  box-shadow: 2px 5px 5px gray;
+}
+#s-button:hover {
+  cursor: pointer;
+  color: #42a5f5;
+  background: white;
+}
+
+#c-button {
+  border-radius: 10px;
+  font-size: 15px;
+  background: #218838;
+  border: 1px solid #218838;
+  padding: 10px 25px;
+  margin-left: 25px;
+  color: white;
+  box-shadow: 2px 5px 5px gray;
+}
+#c-button:hover {
+  cursor: pointer;
+  color: #218838;
+  background: white;
+}
+h1 {
+  margin: 10px 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0 2px;
+}
+.fa-solid {
+  font-size: 55px;
+  color: #ffe168;
+}
+.h2 {
+  display: inline;
+  font-size: 60px;
+  font-weight: 300;
+  color: black;
+}
+.units {
+  position: relative;
+  bottom: 28px;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.col {
+  position: relative;
+  bottom: 130px;
+  left: 300px;
+  padding-right: 300px;
+}
+.rol-3 {
+  display: inline;
+}
