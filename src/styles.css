@@ -10,7 +10,7 @@ body {
   border: 1px solid lightslategray;
   height: 220px;
   width: 550px;
-  margin: 100px auto;
+  margin: 200px auto;
   background: radial-gradient(
     circle at 7.5% 24%,
     rgb(237, 161, 193) 0%,
