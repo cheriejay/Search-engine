@@ -98,3 +98,8 @@ ul {
 .rol-3 {
   display: inline;
 }
+strong {
+  position: relative;
+  bottom: 65px;
+  right: 10px;
+}
