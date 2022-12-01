@@ -1,6 +1,10 @@
 body {
   font-family: sans-serif;
   color: gray;
+  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto;
 }
 .container {
   border: 1px solid lightslategray;
