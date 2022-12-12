@@ -72,19 +72,25 @@ ul {
   list-style-type: none;
   padding: 0 2px;
 }
-.fa-solid {
-  font-size: 55px;
-  color: #ffe168;
+img {
+  image-orientation: inherit;
+  position: relative;
+  bottom: 15px;
+  right: 20px;
 }
 .h2 {
   display: inline;
   font-size: 60px;
   font-weight: 300;
   color: black;
+  position: relative;
+  bottom: 40px;
+  right: 25px;
 }
 .units {
   position: relative;
-  bottom: 28px;
+  bottom: 65px;
+  right: 25px;
   font-size: 25px;
   font-weight: 300;
 }
