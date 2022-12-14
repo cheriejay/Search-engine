@@ -89,10 +89,12 @@ img {
 }
 .units {
   position: relative;
-  bottom: 65px;
+  bottom: 75px;
   right: 25px;
-  font-size: 25px;
-  font-weight: 300;
+  font-size: 15px;
+}
+a {
+  text-decoration: none;
 }
 
 .col {
