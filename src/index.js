@@ -71,6 +71,7 @@ function showWeather(response) {
     "src",
     `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
   );
+  celTemp = response.data.main.temp;
 }
 function currentLocation(event) {
   event.preventDefault();
@@ -86,5 +87,26 @@ function theLocation(position) {
 
 let sbutton = document.querySelector("#c-button");
 sbutton.addEventListener("click", currentLocation);
+
+function displayFarTemp(event) {
+  event.preventDefault();
+  let farTemp = (celTemp * 9) / 5 + 32;
+  let tempElement = document.querySelector("#temp");
+  tempElement.innerHTML = Math.round(farTemp);
+}
+
+let farLink = document.querySelector("#far");
+farLink.addEventListener("click", displayFarTemp);
+
+let celTemp = null;
+
+function displayCelTemp(event) {
+  event.preventDefault();
+  let tempElement = document.querySelector("#temp");
+  tempElement.innerHTML = Math.round(celTemp);
+}
+
+let celLink = document.querySelector("#cel");
+celLink.addEventListener("click", displayCelTemp);
 
 search("Enugu");
